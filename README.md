@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/screenshot.png)
 
 ### Links
 
-- Solution URL: [https://github.com/Krrish105/Profile-Card](https://github.com/Krrish105/Profile-Card)
-- Live Site URL: [https://krrish105.github.io/Profile-Card/](https://krrish105.github.io/Profile-Card/)
+- Solution URL: [https://github.com/Krrish105/Loopstudio-Landing-Page](https://github.com/Krrish105/Loopstudio-Landing-Page)
+- Live Site URL: [https://krrish105.github.io/Loopstudio-Landing-Page/](https://krrish105.github.io/Loopstudio-Landing-Page/)
 
 
 ## My process
