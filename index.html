@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <script src="https://kit.fontawesome.com/5731f6d037.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Loopstudios landing page</title>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+
+      <!-- Navigation Bar -->
+      <nav class = "nav-bar">
+          
+          <!-- Logo -->
+          <a href="#"><img src="./images/logo.svg" alt="loopstudio logo"></a>
+
+          <!-- Navigation Menu -->
+          <ul class="nav-menu">
+                <a href="#" id="menu-logo"><img src="./images/logo.svg" alt="loopstudio logo"></a>
+                <li class="nav-item">
+                    <a href="#">About</a>
+                    <div class="underline"></div>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Careers</a>
+                    <div class="underline"></div>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Events</a>
+                    <div class="underline"></div>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Products</a>
+                    <div class="underline"></div>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Support</a>
+                    <div class="underline"></div>
+                </li>
+          </ul>
+
+          <!-- Hamburger -->
+          <span class="fas fa-bars hamburger"></span>
+      </nav>
+
+      <!-- Hero Text -->
+      <div class="hero-text-container">
+          <span>Immersive experiences that deliver</span>
+      </div>
+  </header>
+
+  <!-- Main -->
+  <main>
+
+    <!-- Leader Container -->
+      <div class="leader-container">
+          <div class="leader-img"></div>
+          <div class="leader-text">
+            <span class="leader-heading">
+                The leader in interactive vr
+            </span>
+            <span class="leader-desc">
+                Founded in 2011, Loopstudios has been producing world-class virtual
+                reality projects for some of the best companies around the globe.
+                Our award-winning creations have transformed businesses through 
+                digital experiences that bind to their brand.
+            </span>
+          </div>
+      </div>
+
+      <!-- Creaation Container -->
+      <div class="creation-container">
+          <div class="creation-heading">
+            <h2>Our Creations</h2>
+            <a href = "#" id = "see-all-link-1" class = "see-all-link">See all</a>
+          </div>
+
+          <!-- Creation Images -->
+          <div class="creation-imgs">
+            <!-- Deep Earth -->
+            <div class="creation-card img">
+                <div class="image-overlay"></div>
+                <picture>
+                    <source media="(max-width: 1100px)" width = "400" height = "145" srcset="images/mobile/image-deep-earth.jpg">
+                    <source media="(min-width: 1100px)" width = "227" height = "400" srcset="images/desktop/image-deep-earth.jpg">
+                    <img src="images/desktop/image-deep-earth.jpg" alt="">
+                </picture>
+                <span>
+                    Deep earth
+                </span>
+            </div>
+
+            <!-- Night Arcade -->
+            <div class="creation-card img">
+                <div class="image-overlay"></div>
+                <picture>
+                    <source media="(max-width: 1100px)" width = "400" height = "145" srcset="images/mobile/image-night-arcade.jpg">
+                    <source media="(min-width: 1100px)" width = "227" height = "400" srcset="images/desktop/image-night-arcade.jpg">
+                    <img src="images/desktop/image-night-arcade.jpg" alt="">
+                </picture>
+                <span>
+                    Night arcade
+                </span>
+            </div>
+
+            <!-- Soccer Team -->
+            <div class="creation-card img">
+                <div class="image-overlay"></div>
+                <picture>
+                    <source media="(max-width: 1100px)" width = "400" height = "145" srcset="images/mobile/image-soccer-team.jpg">
+                    <source media="(min-width: 1100px)" width = "227" height = "400" srcset="images/desktop/image-soccer-team.jpg">
+                    <img src="images/desktop/image-soccer-team.jpg" alt="">
+                </picture>
+                <span>
+                    Soccer team vr
+                </span>
+            </div>
+
+            <!-- The Grid -->
+            <div id = "the-grid" class="creation-card" >
+                <div class="image-overlay"></div>
+                <picture>
+                    <source media="(max-width: 1100px)" width = "400" height = "145" srcset="images/mobile/image-grid.jpg">
+                    <source media="(min-width: 1100px)" width = "227" height = "400" srcset="images/desktop/image-grid.jpg">
+                    <img src="images/desktop/image-grid.jpg" alt="">
+                </picture>
+                <span>
+                    The grid
+                </span>
+            </div>
+
+            <!-- From Up Above -->
+            <div class="creation-card">
+                <div class="image-overlay"></div>
+                <picture>
+                    <source media="(max-width: 1100px)" width = "400" height = "145" srcset="images/mobile/image-from-above.jpg">
+                    <source media="(min-width: 1100px)" width = "227" height = "400" srcset="images/desktop/image-from-above.jpg">
+                    <img src="images/desktop/image-from-above.jpg" alt="">
+                </picture>
+                <span>
+                    From up above vr
+                </span>
+            </div>
+
+            <!-- Pocket Borealis -->
+            <div class="creation-card">
+                <div class="image-overlay"></div>
+                <picture>
+                    <source media="(max-width: 1100px)" width = "400" height = "145" srcset="images/mobile/image-pocket-borealis.jpg">
+                    <source media="(min-width: 1100px)" width = "227" height = "400" srcset="images/desktop/image-pocket-borealis.jpg">
+                    <img src="images/desktop/image-pocket-borealis.jpg" alt="">
+                </picture>
+                <span>
+                    Pocket borealis
+                </span>
+            </div>
+
+            <!-- The Curiosity -->
+            <div class="creation-card">
+                <div class="image-overlay"></div>
+                <picture>
+                    <source media="(max-width: 1100px)" width = "400" height = "145" srcset="images/mobile/image-curiosity.jpg">
+                    <source media="(min-width: 1100px)" width = "227" height = "400" srcset="images/desktop/image-curiosity.jpg">
+                    <img src="images/desktop/image-curiosity.jpg" alt="">
+                </picture>
+                <span>
+                    the curiosity
+                </span>
+            </div>
+
+            <!-- Fisheye -->
+            <div class="creation-card" >
+                <div class="image-overlay"></div>
+                <picture>
+                    <source media="(max-width: 1100px)" width = "400" height = "145" srcset="images/mobile/image-fisheye.jpg">
+                    <source media="(min-width: 1100px)" width = "227" height = "400" srcset="images/desktop/image-fisheye.jpg">
+                    <img src="images/desktop/image-fisheye.jpg" alt="">
+                </picture>
+                <span>
+                    Make it fisheye
+                </span>
+            </div>
+          </div>
+          
+          <a href = "#" id = "see-all-link-2" class="see-all-link">See all</a>
+      </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+
+    <!-- Footer navigation Bar-->
+      <div class="footer-nav">
+        <!-- Logo -->
+        <a href="#"><img src="images/logo.svg" alt="loopstudio logo"></a>
+
+        <!-- Footer Navigation Menu -->
+        <ul class="nav-menu" id = "footer-nav-menu">
+            <li class="nav-item">
+                <a href="#">About</a>
+                <div class="underline"></div>
+            </li>
+            <li class="nav-item">
+                <a href="#">Careers</a>
+                <div class="underline"></div>
+            </li>
+            <li class="nav-item">
+                <a href="#">Events</a>
+                <div class="underline"></div>
+            </li>
+            <li class="nav-item">
+                <a href="#">Products</a>
+                <div class="underline"></div>
+            </li>
+            <li class="nav-item">
+                <a href="#">Support</a>
+                <div class="underline"></div>
+            </li>
+        </ul>
+      </div>
+
+      <!-- Social Media Links -->
+      <div class="social-links">
+        <ul class="links">
+            <li>
+                <a href="#"><img src="images/icon-facebook.svg" alt=""></a>
+                <div class="underline"></div>
+            </li>
+            <li>
+                <a href="#"><img src="images/icon-twitter.svg" alt=""></a>
+                <div class="underline"></div>
+            </li>
+            <li>
+                <a href="#"><img src="images/icon-pinterest.svg" alt=""></a>
+                <div class="underline"></div>
+            </li>
+            <li>
+                <a href="#"><img src="images/icon-instagram.svg" alt=""></a>
+                <div class="underline"></div>
+            </li>        
+        </ul>
+        <span id="copyright">&#169; 2021 Loopstudios. All rights reserved.</span>
+      </div>
+  </footer>
+
+  <!-- Attribution -->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Krrish105">Karishma Garg</a>.
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
