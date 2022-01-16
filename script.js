@@ -1,6 +1,6 @@
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
-const navLink = document.querySelectorAll(".nav-item");
+const navLink = document.querySelectorAll(".header-nav-item");
 
 hamburger.addEventListener("click", function(){
   hamburger.classList.toggle("fa-times")
@@ -9,6 +9,7 @@ hamburger.addEventListener("click", function(){
 })
 navLink.forEach((item) => {
      item.addEventListener("click", function(){
+       hamburger.classList.remove("fa-times")
        navMenu.classList.remove("active");
      })
 });

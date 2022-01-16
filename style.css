@@ -100,7 +100,7 @@ a {
 .underline {
   width: 0px;
   background-color: white;
-  margin-top: 4px;
+  margin-top: 8px;
   height: 2px;
   -webkit-transition: 0.2s ease-in-out all;
   transition: 0.2s ease-in-out all;
@@ -174,7 +174,7 @@ li:hover .underline {
 }
 
 .creation-container {
-  margin: 80px 0px 120px 0px;
+  margin: 80px auto 120px auto;
   text-align: center;
 }
 
@@ -275,6 +275,10 @@ footer {
           flex-direction: column;
 }
 
+footer .underline {
+  margin: 0 auto;
+}
+
 .footer-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -318,10 +322,6 @@ footer {
   font-size: 20px;
   font-family: 'Alata', sans-serif;
   text-transform: capitalize;
-}
-
-#footer-nav-menu .underline {
-  margin: 0 auto;
 }
 
 .links {
@@ -458,8 +458,8 @@ footer {
     font-size: 55px;
   }
   .leader-container {
-    margin: 100px auto 100px auto;
-    left: -160px;
+    margin: 100px auto;
+    right: 160px;
   }
   .leader-img {
     background: url("images/desktop/image-interactive.jpg");
