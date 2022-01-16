@@ -58,8 +58,9 @@ header {
 }
 
 #menu-logo {
-  margin-top: 18px;
+  margin-top: 10px;
   margin-bottom: 20vh;
+  width: 220px;
 }
 
 .nav-menu.active {
