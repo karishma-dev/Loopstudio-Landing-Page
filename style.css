@@ -198,6 +198,8 @@ li:hover .underline {
   color: white;
   margin: 20px 0px;
   position: relative;
+  -webkit-box-shadow: #26394d 0px 0px 8px 2px;
+          box-shadow: #26394d 0px 0px 8px 2px;
   cursor: pointer;
 }
 
